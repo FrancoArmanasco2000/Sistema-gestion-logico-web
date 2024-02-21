@@ -1,0 +1,132 @@
+.titulo-main{
+    position: absolute;
+    left: 260px;
+    font-size: 60px;
+    top: 10px;
+}
+
+.container-interface {
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-buttons{
+    width: 750px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+tbody tr{
+    background-color: white;
+}
+
+tbody tr:hover{
+    cursor:pointer;
+}
+
+.marcado{
+    background-color: #34495E ;
+    color: white;
+}
+
+.create{
+    background-color: #28B463
+}
+
+.create:hover{
+    background-color: #1D8348
+}
+
+.delete{
+    background-color: #A93226;
+}
+
+.delete:hover{
+    background-color: #7B241C;
+}
+
+.edit{
+    background-color: #2E4053;
+}
+
+.edit:hover{
+    background-color: #212F3C;
+}
+
+.stock{
+    background-color: #e2b903;
+}
+
+.stock:hover{
+    background-color: #a08405;
+}
+
+.search{
+    width: 750px;
+    height: 30px;
+    margin: 13px;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.container-table{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-height: 290px;
+    overflow-x: auto;
+}
+
+/* Estilos para la tabla moderna */
+.modern-table {
+    width: 750px;
+    border-color: #000;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.modern-table thead {
+    background-color: #000;
+    color: white;
+}
+th,
+td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #000;
+
+}
+
+
+

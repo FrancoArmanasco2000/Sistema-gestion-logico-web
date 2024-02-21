@@ -1,0 +1,59 @@
+.container-account{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(0, 0 , 0 , 0.5);
+}
+
+.hoyo{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: #A1A1A1ed;
+    width: 60px;
+    height: 10px;
+    border-radius: 20px;
+    border-style: ridge;
+}
+
+.container-perfil{
+    width: 350px;
+    height: 160px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+    background-color: aliceblue;
+}
+
+.user-secret{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.datos-account{
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dato{
+    font-size: 16px;
+    margin: 5px;
+}

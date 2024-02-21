@@ -1,0 +1,24 @@
+.container-interface-stock{
+    position: absolute;
+    width: 770px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    background-color: #5D6D7E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-stock{
+    width: 730px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.cerrar-stock{
+    width: 35px;
+    margin-left: 50%;
+    background-color: rgb(184, 5, 5);
+}

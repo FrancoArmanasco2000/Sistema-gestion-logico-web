@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+.sidebar{
+    height: 100%;
+    width: 60px;
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+.mainHead{
+    margin-left: 20px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #000000CC;
+    margin-left: 0px;
+    padding: 10px 0px;
+}
+
+.sidebar li{
+    margin-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.sidebar-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.items .i{
+    margin: 0 10px;
+}
+
+.para{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.sidebar li:not(.logout-btn):hover {
+    background: #000;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.logout-btn{
+    margin-top: 50px;
+    color: #B70202;
+}
+
+.logout-btn:hover{
+    background-color: #B70202;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.toggler{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    transition: all 0.5s ease;
+}
+
+.toggler .toggle-cross {
+    display: none;
+}
+
+.active.toggler .toggle-cross {
+    display: block;
+}
+
+.active.toggler .toggle-bars {
+    display: none;
+}
+
+.active.toggler {
+    left: 170px;
+}
+
+.active.sidebar {
+    width: 220px;
+}
+
+.active.sidebar .para{
+    opacity: 1;
+}

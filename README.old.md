@@ -1,1 +1,0 @@
-# Sistema-gestion-logico-web
